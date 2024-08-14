@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+body {
+    height: 80vh;
+    background-color: black;
+}
+
+.main {
+    background: url(assets/bg1.jpg);
+    height: 80vh;
+    position: relative;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.2;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 88vw;
+    margin: auto;
+    height: 120px;
+}
+
+.hero {
+    height: calc(100% -62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -300px;
+    color: white;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(255, 244, 244);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.btn-ms {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.jay{
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    top: inherit;
+    position: relative;
+    top: -200px;
+}
+
+.secimg video{
+    width: 30vw;
+}
+
+section.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+} 
+section.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+} 
+
+
+
+
+
+
